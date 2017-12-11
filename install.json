@@ -1,0 +1,44 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./head.js"
+      }
+    ],
+    "body": [
+      {
+        "type": "script",
+        "src": "./body.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "headCss": {
+        "title": "Head CSS",
+        "type": "string",
+        "format": "code",
+        "default": "/* Enter your CSS here */"
+      },
+      "bodyCss": {
+        "title": "Body CSS",
+        "type": "string",
+        "format": "code",
+        "default": "/* Enter your CSS here */"
+      },
+      "headJs": {
+        "title": "Head JS",
+        "type": "string",
+        "format": "code",
+        "default": "/* Enter your JS here */"
+      },
+      "bodyJs": {
+        "title": "Body JS",
+        "type": "string",
+        "format": "code",
+        "default": "/* Enter your JS here */"
+      }
+    }
+  }
+}
